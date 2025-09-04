@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Virtual - Pastelería</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo Pastelería">
+      <h1>Pastelería Dulce Sabor</h1>
+    </div>
+    <div class="contacto">
+      <p>📞 <span id="telefono">55 1234 5678</span></p>
+      <button onclick="enviarPedido()">Enviar pedido por WhatsApp</button>
+    </div>
+  </header>
+
+  <!-- Carrusel -->
+  <section class="carrusel">
+    <div class="carrusel-inner">
+      <div class="carrusel-item active"><img src="img/banner1.jpg" alt="Promoción 1"></div>
+      <div class="carrusel-item"><img src="img/banner2.jpg" alt="Promoción 2"></div>
+      <div class="carrusel-item"><img src="img/banner3.jpg" alt="Promoción 3"></div>
+    </div>
+  </section>
+
+  <!-- Filtros -->
+  <section class="filtros">
+    <input type="text" id="buscador" placeholder="Buscar productos..." onkeyup="buscarProductos()">
+    <div id="categorias"></div>
+  </section>
+
+  <!-- Productos -->
+  <main id="productos"></main>
+
+  <!-- Carrito -->
+  <aside id="carrito">
+    <h2>Carrito de compras</h2>
+    <div id="carrito-items"></div>
+    <p id="total">Total: $0 MXN</p>
+    <button onclick="vaciarCarrito()">Vaciar carrito</button>
+    <button onclick="enviarPedido()">Enviar pedido por WhatsApp</button>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pastelería Dulce Sabor</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

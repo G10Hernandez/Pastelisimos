@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pastel Chico",
+    "categoria": "Pasteles",
+    "precio": 120,
+    "imagen": "img/pastel-chico.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pastel Mediano",
+    "categoria": "Pasteles",
+    "precio": 220,
+    "imagen": "img/pastel-mediano.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Pastel Grande",
+    "categoria": "Pasteles",
+    "precio": 350,
+    "imagen": "img/pastel-grande.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Pay de Queso",
+    "categoria": "Pays",
+    "precio": 150,
+    "imagen": "img/pay-queso.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Flan Napolitano",
+    "categoria": "Flanes",
+    "precio": 90,
+    "imagen": "img/flan.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Gelatina de Frutas",
+    "categoria": "Gelatinas",
+    "precio": 80,
+    "imagen": "img/gelatina.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Cupcake Vainilla",
+    "categoria": "Cupcakes",
+    "precio": 35,
+    "imagen": "img/cupcake.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Velitas para Pastel",
+    "categoria": "Accesorios",
+    "precio": 20,
+    "imagen": "img/velitas.jpg"
+  }
+]
