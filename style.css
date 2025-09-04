@@ -141,13 +141,15 @@ header {
   background: #fff0f5;
   border-left: 3px solid #ff69b4;
   padding: 15px;
-  position: fixed;
+  position: absolute; /* en lugar de fixed */
   right: 0;
-  top: 0;
+  top: 180px; /* empieza debajo del header (ajusta según altura real del header) */
   width: 300px;
-  height: 100%;
+  max-height: 300px; /* altura aproximada del carrusel */
   overflow-y: auto;
+  border-radius: 0 0 0 15px;
 }
+
 
 #carrito h2 {
   margin-bottom: 10px;
